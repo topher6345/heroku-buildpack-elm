@@ -9,7 +9,7 @@ WORKDIR /tmp
 
 
 # Install Elm
-ENV ELM_VERSION 0.18.0
+ENV ELM_VERSION 0.19.0
 
 RUN npm install -g elm@${ELM_VERSION}
 RUN mkdir -p /app/.profile.d /app/bin
